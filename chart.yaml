@@ -1,6 +1,0 @@
-apiVersion: v2
-name: engineers-guide-to-cerebral-palsy
-description: A Helm chart for An Engineer's Guide to Cerebral Palsy
-type: application
-version: 0.1.0
-appVersion: "1.0.0"
