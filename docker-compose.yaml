@@ -5,7 +5,7 @@ services:
     image: nginx:alpine
     container_name: aegtcp-webserver
     ports:
-      - "130985:80"
+      - "13985:80"
     volumes:
       - ./content:/usr/share/nginx/html
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
