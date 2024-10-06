@@ -7,9 +7,9 @@ services:
     ports:
       - "13985:80"
     volumes:
-      - ./content:/usr/share/nginx/html
-      # - ./content/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./src:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
     restart: unless-stopped
 
 volumes:
-  content:
+  src:
